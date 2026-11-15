@@ -1,0 +1,14 @@
+name: Задача
+description: Любая другая работа — документация, настройка, разобраться в чём-то. Метку поставь сам.
+projects: ["kpp-sol/2"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Что сделать
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Как понять, что готово

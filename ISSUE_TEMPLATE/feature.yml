@@ -1,0 +1,19 @@
+name: Фича
+description: Новая возможность
+labels: [feature]
+projects: ["kpp-sol/2"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Что сделать
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Как понять, что готово
+      placeholder: |
+        - [ ] ...
+    validations:
+      required: true

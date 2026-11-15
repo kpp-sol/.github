@@ -1,0 +1,4 @@
+.DS_Store
+
+# CLAUDE.md коммитим всегда, даже если глобальный gitignore его скрывает
+!CLAUDE.md
